@@ -1,13 +1,12 @@
 # SELinux_Policy_Grabber
-Этот простой скрипт предназначен для решения проблем с SELinux для деревьев устройств. 
+This simple script is designed to solve SELinux problems for device trees.
 
-Использование:
-- Поместить скрипт в **корневую директорию пользователя**
-- Поместить рядом со скриптом **log.txt** (лог файл) формата:
-> https://gist.github.com/SeriniTY320/664aaa3d78aa86c4d3eb693121d93335#file-oreo_mt6735_sepolicy_error
-- Выполнить 
+Using:
+- Place the script in the user's root directory
+- Place next to the script log.txt (log file) format
+- Run 
 ```
     bash SELinux_grabber.sh
 ```
 
-- В директории **~/out/sepolicy** будут файлы с нужными правами исходя из ошибок в логе.
+- In the **~/out/sepolicy** directory there will be files with the necessary permissions based on errors in the log.
